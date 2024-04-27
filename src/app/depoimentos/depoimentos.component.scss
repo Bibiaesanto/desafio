@@ -1,0 +1,78 @@
+.testimonials-section {
+  padding: 50px 0;
+  background-color: #f0f0f0;
+  text-align: center;
+}
+
+.testimonial {
+  margin-bottom: 30px;
+}
+
+.testimonial-title {
+  cursor: pointer;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.testimonial-content {
+  display: none;
+  text-align: left;
+}
+
+blockquote {
+  font-size: 18px;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+cite {
+  font-size: 16px;
+  font-weight: bold;
+  color: #555;
+}
+
+cite::before {
+  content: "- ";
+}
+.testimonial-card {
+  border: 1px solid rgb(12,43,67);
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: rgb(12,43,67, 0.3);
+}
+.comment-box-container {
+  text-align: center; /* Centraliza o conteúdo */
+}
+
+.comment-box {
+  border: 1px solid #ccc;
+  border-radius: 10px; /* Define a curvatura das bordas */
+  padding: 10px;
+  margin-top: 10px;
+  resize: vertical; /* Permite redimensionamento vertical */
+  width: 500px; /* Largura da caixa */
+  height: 50px; /* Altura da caixa */
+  box-sizing: border-box; /* Garante que o padding não aumente a largura */
+  display: block;
+  margin: 0 auto; /* Centraliza horizontalmente */
+}
+
+/* Estilos para o botão de enviar */
+.submit-button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 6px 12px; /* Tamanho do padding ajustado */
+  border: none;
+  border-radius: 20px; /* Curvatura para tornar o botão redondo */
+  background-color: rgb(12,43,67, 0.3);
+  color: #fff;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: rgb(12,43,67);
+}

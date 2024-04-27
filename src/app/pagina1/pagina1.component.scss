@@ -1,0 +1,42 @@
+/* menu.component.css */
+.menu {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .menu ul li {
+    flex: 0 0 calc(33.33% - 20px);
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .menu ul li:hover {
+    transform: translateY(-5px);
+  }
+  
+  .menu ul li:active {
+    transform: translateY(0);
+  }
+  
+  .menu ul li.card {
+    cursor: pointer;
+  }
+  
+  .menu ul li.card:hover {
+    background-color: #f0f0f0;
+  }
+  

@@ -1,0 +1,42 @@
+.header {
+  background-color: rgb(12, 43, 67);
+  color: #fff;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center; /* Centralizando a navegação */
+}
+
+.nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.nav li:last-child {
+  margin-right: 0; /* Removendo a margem do último item */
+}
+
+.nav li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin-left: 10px; /* Movendo a imagem do perfil para a esquerda */
+  order: -1; /* Colocando a imagem do perfil no início do flex container */
+}

@@ -1,0 +1,31 @@
+.main-section {
+  padding: 20px;
+  background-color: #f0f0f0;
+  // text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  h2 {
+    color: #333;
+    text-align: center;
+    padding: 0 20px;
+  }
+
+  p {
+    color: #666;
+    
+  }
+}
+.image-container {
+  flex-shrink: 0;
+  margin-left: 20px;
+}
+
+.responsive-image {
+  max-width: 200px; /* Defina o tamanho máximo desejado */
+  width: 100%; /* Garante que a imagem se ajuste ao tamanho máximo */
+  height: auto; /* Mantém a proporção da imagem */
+  opacity: 0.7; /* Define a opacidade da imagem para 50% */
+}
