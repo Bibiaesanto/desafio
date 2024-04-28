@@ -1,27 +1,37 @@
-# DesafioMxm
+# DESAFIO COMPONENTES ANGULAR
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.4.
+Este projeto é parte de um desafio onde o objetivo era criar um pacote de componentes front responsivo em Angular, que possamos usar para prototipação em alguma ferramenta como Figma. Neste desafio, foram desenvolvidos diversos componentes para construir a interface da página, incluindo um cabeçalho, um componente principal, um de recursos, um de depoimentos e um rodapé. 
 
-## Development server
+## Tecnologias utilizadas: 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- TypeScript
+- HTML 
+- SCSS
+- Angular CLI
 
-## Code scaffolding
+## Como Executar o Projeto Localmente
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Clone o Repositório: Faça o clone deste repositório para o seu ambiente local utilizando o seguinte comando:
+- git clone https://github.com/seu-usuario/nome-do-repositorio.git
+  
+Instale as Dependências: Navegue até o diretório do projeto e instale as dependências do npm com o seguinte comando:
+- cd nome-do-repositorio
+- npm install
 
-## Build
+Execute o Servidor de Desenvolvimento: Após a instalação das dependências, inicie o servidor de desenvolvimento com o seguinte comando:
+- ng serve
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Acesse a Página no Navegador: Abra o seu navegador e acesse o seguinte endereço:
+- http://localhost:4200
+  
+Visualize a Página Responsiva: Experimente redimensionar a janela do navegador para testar a responsividade da página em diferentes tamanhos de tela.
 
-## Running unit tests
+O projeto também está disponível em: 
+- https://phenomenal-dasik-de4dd0.netlify.app/
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Contato
+Se tiver alguma dúvida ou sugestão, sinta-se à vontade para entrar em contato:
 
-## Running end-to-end tests
+Nome: [Bianca]
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Email: [bianca.ces81@gmail.com]
